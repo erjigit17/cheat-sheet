@@ -7,7 +7,7 @@ foo     = true;  // foo is now a boolean
 1. String
 2. Number *
 3. BigInt *
-4. Boolean -
+4. Boolean - 
 5. Symbol *
 6. null // obj  
 7. undefined // create a variable but assign it no value (let x) 
@@ -64,6 +64,30 @@ isNaN(1 + null)      // false
 isNaN(1 + undefined) // true
 
 
+null + 1  // 1
+null / 10 // 0
+null * 10 // 0
+
+undefined + 1 // NaN
+undefined / 10 // NaN
+undefined * 10  // NaN
+
+
+''  - 2 // -2 // number
+'3' * '8' // 24 // number
+
+4 + 10 +'px' //'14px'
+'px' + 4 + 10 //'px410'
+'42px' - 2 //NaN 
+
+// Falsy false, 0, '', null, ubdefined, NaN
+[] // true
+{} // true
+function(){} // true
+
+// Primitiv Boolen, null, udefined, number, sring, Symbol  
+
+
 // object get set...
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#symbol_type
 
@@ -74,5 +98,22 @@ isNaN(1 + undefined) // true
 
 // Structured data: JSON
 // JSON.parse JSON.stringify
+
+== or ===
+
+=== только значений 
+== с приведением значений
+
+'2' == 2 // true
+'2' === 2 // false
+'0' == false //true
+
+
+****************
+false == ''//true
+false == []//true
+false == {}//false
+
+
 
 
