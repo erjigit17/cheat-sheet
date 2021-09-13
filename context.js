@@ -48,3 +48,10 @@ animal.logThis()
 
 //=====
 
+function Cat(color) {
+  this.color = color
+  console.log('This ', this)
+  ;(() => console.log('Arrow this ', this))()
+}
+
+new Cat('red')
