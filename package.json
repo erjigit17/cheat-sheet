@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./sample-web-app/server.js",
+    "dev": "nodemon ./12 sample View Engine/node-js/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
