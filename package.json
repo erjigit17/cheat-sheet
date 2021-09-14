@@ -1,0 +1,23 @@
+{
+  "name": "cheat-sheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./nodejs/9-create-base-routing/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erjigit17/cheat-sheet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erjigit17/cheat-sheet/issues"
+  },
+  "homepage": "https://github.com/erjigit17/cheat-sheet#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
