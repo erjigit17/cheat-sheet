@@ -1,4 +1,3 @@
-// push, pop...
 let arr = ['a', 'b', 'c', 'd']
 let obj = {0: 'a', 1: 'b', 2: 'c', 3: 'd'}
 
