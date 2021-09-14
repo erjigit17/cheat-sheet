@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./nodejs/9-create-base-routing/app.js",
+    "dev": "nodemon ./sample-web-app/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/erjigit17/cheat-sheet#readme",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ejs":"^3.1.6",
+    "express": "^4.17.1"
   }
 }
