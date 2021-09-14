@@ -2,17 +2,17 @@ function sum(a, b) {
   return a + b
 }
 const sum2 = (a, b) => a + b
-
+//================================================================
 function isPositive(number) {
   return number >= 0
 }
 const isPositive2 = number => number >= 0 // single arsg without ()
-
-function randoomNumber() {
+//================================================================
+function randomNumber() {
   return Math.random
 }
-const randoomNumber2 = () => Math.random
-
+const randomNumber2 = () => Math.random
+//================================================================
 document.addEventListener('click', function() {
   console.log('Click')
 })
@@ -20,7 +20,7 @@ document.addEventListener('click', () => console.log('Click'))
 
 (() => {null})()
 
-// => you cant use conxs x = new ...
+// => you cant use const x = new ...
 // => no arguments obj
 // => cant use bind call apply
 
