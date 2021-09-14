@@ -1,2 +1,2 @@
 Hello everybody!
-My name is Erjigit and I am nodejs developer.
+My name is Erjigit and I am nodejs developer. 
